@@ -9,8 +9,13 @@
   background-size: cover;
 }
 
-/* Transparent navbar */
+/* Navbar */
 
 .navbar-inner: {
   background: transparent;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }
