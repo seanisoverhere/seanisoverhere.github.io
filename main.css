@@ -1,3 +1,4 @@
+/* Carousel slider */
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -6,4 +7,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/* Transparent navbar */
+
+.navbar-inner: {
+  background: transparent;
 }
