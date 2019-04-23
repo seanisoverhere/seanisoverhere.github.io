@@ -11,11 +11,22 @@
 
 /* Navbar */
 
-.navbar: {
-  background: transparent;
+.navbar-transparent {
+  background-color: transparent;
+  transition: all 500ms ease;
 }
 
-.navbar fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+.navbar.scrolled {
+  background-color: #DDDBDA;
+  transition: all 500ms ease;
+}
+
+.navbar-brand {
+  color: #000;
+  font-weight: 600;
+}
+
+.nav-item a {
+  color: #000;
+  font-weight: 600;
 }
