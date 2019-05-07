@@ -42,3 +42,50 @@
   color: #000;
   font-weight: 600;
 }
+
+/* Heading */
+
+.heading_icon-container {
+    height: 64px;
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+.heading_icon {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    color: #646262;
+}
+
+.heading_title {
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.heading_title-line {
+    position: absolute;
+    height: 4px;
+    bottom: 44px;
+    left: 0;
+    right: 0;
+    width: 1%;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: #646262;
+}
+
+.heading_title-bg {
+    display: inline-block;
+    font-family: "Josefin-Sans";
+    position: relative;
+    background-color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 2;
+    color: #646262;
+}
