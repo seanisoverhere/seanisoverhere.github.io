@@ -3,6 +3,7 @@
 /* Bebas Neue */
 @font-face {
   font-family: 'BebasNeue-Bold';
+  font-display: auto;
   src: url('/fonts/BebasNeue-Bold.otf') format('opentype');
 }
 
