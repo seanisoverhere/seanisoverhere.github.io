@@ -1,4 +1,4 @@
-<h2> Font Types </h2<
+<h2> Font Types </h2>
 
 1. Font 1
 2. Font 2
