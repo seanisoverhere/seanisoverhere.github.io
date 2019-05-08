@@ -1,3 +1,6 @@
+// Initialize AOS
+  AOS.init();
+
 // Changing colour of navbar when scrolling
   $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
