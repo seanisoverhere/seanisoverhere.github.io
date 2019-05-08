@@ -90,7 +90,7 @@
 
 .heading_title-bg {
     display: inline-block;
-    font-family: "BebasNeue-Bold";
+    font-family: "BebasNeue-Bold", Sans-Serif;
     font-size: 36px;
     position: relative;
     background-color: #fff;
