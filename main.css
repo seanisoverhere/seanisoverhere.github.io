@@ -1,3 +1,11 @@
+/* -------------- Fonts -------------- */
+
+/* Bebas Neue */
+@font-face {
+  font-family: 'BebasNeue-Bold';
+  src: url('/fonts/BebasNeue-Bold.otf') format('opentype');
+}
+
 /* Background */
 .background {
   height: 100vh;
