@@ -1,5 +1,7 @@
 // Initialize AOS
+$(function() {
   AOS.init();
+});
 
 // Changing colour of navbar when scrolling
   $(window).scroll(function () {
