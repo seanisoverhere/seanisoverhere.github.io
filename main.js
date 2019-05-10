@@ -1,3 +1,7 @@
+// ScrollSpy
+
+$('body').scrollspy({ target: '#navbar-example' });
+
 // Initialize AOS
 $(function() {
   AOS.init();
