@@ -1,3 +1,6 @@
+// Initialize ScrollSpy
+$('body').scrollspy({target: ".navbar"})
+
 // Initialize AOS
 $(function() {
   AOS.init();
