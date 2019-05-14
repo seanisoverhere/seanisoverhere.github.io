@@ -23,7 +23,7 @@ body {
 }
 
 .background-text {
-  position: absolute;
+  position: absolute !important;
   right: 15%;
   bottom: 20px;
   left: 15%;
