@@ -3,7 +3,9 @@ $('body').scrollspy({target: ".navbar"})
 
 // Initialize AOS
 $(function() {
-  AOS.init();
+   AOS.init({
+      once: true
+   })
 });
 
 // Changing colour of navbar when scrolling
