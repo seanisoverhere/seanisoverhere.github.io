@@ -20,16 +20,14 @@
   <!-- Animate Scroll -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- Velocity js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.ui.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <!-- External Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
+  
+<body>
 
-  <!-- Navigation -->
+<!-- Navigation -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
   <div class="container">
     <a class="navbar-brand" href="#">Sean Choon</a>
@@ -54,86 +52,94 @@
     </div>
   </div>
 </nav>
+
   
-<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
-<body data-hijacking="off" data-animation="parallax">
-
-
-
-<section class="cd-section visible">
+<header>
+  <div class="parallax slide" id="parallax">
       <div class="background" style="background-image: url('https://source.unsplash.com/C0QuDm9QjdE/1920x1080')">
         <div class="background-text">
           <h2 class="display-4">Hello</h2>
           <p class="lead">World</p>
         </div>
       </div>
-</section>
+  </div>
+  </header>
 
 <!-- About Section -->
-<section class="cd-section" id="About">
+<div class="parallax slide" id="parallax">
+  <section class="py-5" id="About">
   
-  <!-- Header -->
-  <div class="heading_icon-container">
-    <div class="heading_icon"><i class="fas fa-user-alt"></i></div>
-      </div>
-<article class="title_container">
+    <!-- Header -->
+    <div class="heading_icon-container">
+      <div class="heading_icon"><i class="fas fa-user-alt"></i></div>
+     </div>
+    <article class="title_container">
       <div class="heading_title">         
          <h3 class="heading_title-bg">About<br/></h3>
            <div class="heading_title-line" data-aos="flip-right" style="width: 50%;"></div>
       </div> 
-  </article>
-</section>
+    </article>
+  </section>
+</div>
+  
 
 <!-- Experiences Section -->
-<section class="cd-section" id="Experiences">
+<div class="parallax slide" id="parallax">
+  <section class="py-5 alt" id="Experiences">
   
     <!-- Header -->
   <div class="heading_icon-container">
     <div class="heading_icon"><i class="fas fa-book-open"></i></div>
       </div>
-<article class="title_container">
+    <article class="title_container">
       <div class="heading_title">
          <h3 class="heading_title-bg alt">Experiences<br/></h3>
          <div class="heading_title-line" data-aos="flip-right" style="width: 50%;">
         </div>
       </div> 
-  </article>
-</section>
+    </article>
+  </section>
+</div>
   
 <!-- Education Section -->
-<section class="cd-section" id="Education">
+<div class="parallax slide" id="parallax">
+  <section class="py-5" id="Education">
   
     <!-- Header -->
   <div class="heading_icon-container">
     <div class="heading_icon"><i class="fas fa-graduation-cap"></i></div>
       </div>
-<article class="title_container">
+    <article class="title_container">
       <div class="heading_title">
          <h3 class="heading_title-bg">Education<br/></h3>
          <div class="heading_title-line" data-aos="flip-right" style="width: 50%;">
         </div>
       </div> 
-  </article>
-</section>
+    </article>
+  </section>
+</div>
   
 <!-- Skills Section -->
-<section class="cd-section" id="Skills">
+<div class="parallax slide" id="parallax">
+  <section class="py-5 alt" id="Skills">
   
     <!-- Header -->
   <div class="heading_icon-container">
     <div class="heading_icon"><i class="fas fa-brain"></i></div>
       </div>
-<article class="title_container">
+    <article class="title_container">
       <div class="heading_title">
          <h3 class="heading_title-bg alt">Skills<br/></h3>
          <div class="heading_title-line" data-aos="flip-right" style="width: 50%;">
         </div>
       </div> 
-  </article>
-</section>
+    </article>
+  </section>
+</div>
  
 <!-- Interests Section -->
-<section class="cd-section" id="Interests">
+<div class="parallax slide" id="parallax">
+  <section class="py-5" id="Interests">
   
     <!-- Header -->
   <div class="heading_icon-container">
@@ -145,8 +151,9 @@
          <div class="heading_title-line" data-aos="flip-right" style="width: 50%;">
         </div>
       </div> 
-  </article>
-</section>
+    </article>
+  </section>
+</div>
   
 </body>
 </html>
