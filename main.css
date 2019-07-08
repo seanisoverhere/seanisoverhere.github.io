@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-.slide .row {
+.slide {
     justify-content: center;
     height: 100vh;
     color: white;
