@@ -13,9 +13,7 @@ body {
 }
 
 .slide .row {
-    display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     color: white;
     text-align: center;
