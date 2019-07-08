@@ -9,7 +9,7 @@ new ScrollMagic.Scene({
     })
     .duration('200%')
     .setTween("#parallax", {
-        backgroundPosition: "40% 100%",
+        backgroundPosition: "50% 50%",
         ease: Linear.easeNone
     })
     //.addIndicators() // for debugging purposes
