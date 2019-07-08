@@ -7,6 +7,14 @@
   src: url('/fonts/BebasNeue-Bold.ttf') format('truetype');
 }
 
+body {
+    margin: 0;
+}
+
+.parallax {
+    background: url(https://source.unsplash.com/V1lmayjfBJc/1600x900) 50% 0;
+}
+
 /* Background */
 .background {
   height: 100vh;
@@ -100,39 +108,4 @@
     color: #646262;
 }
 
-/* Sections */
-
-.cd-section {
-  height: 100vh;
-}
-.cd-section:first-of-type > div {
-  background-color: #2b334f;
-}
-.cd-section:nth-of-type(2) > div {
-  background-color: #2e5367;
-}
-.cd-section:nth-of-type(3) > div {
-  background-color: #267481;
-}
-.cd-section:nth-of-type(4) > div {
-  background-color: #fcb052;
-}
-
-[data-animation="parallax"] .cd-section > div {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-[data-animation="parallax"] .cd-section:first-of-type > div {
-  background-image: url("https://source.unsplash.com/V1lmayjfBJc/1600x900");
-}
-[data-animation="parallax"] .cd-section:nth-of-type(2) > div {
-  background-image: url("https://source.unsplash.com/3-sasPgXnoQ/1600x900");
-}
-[data-animation="parallax"] .cd-section:nth-of-type(3) > div {
-  background-image: url("https://source.unsplash.com/FwNUSwJDZIQ/1600x900");
-}
-[data-animation="parallax"] .cd-section:nth-of-type(4) > div {
-  background-image: url("https://source.unsplash.com/BIdxEi7cWLM/1600x900");
-}
 
