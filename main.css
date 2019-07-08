@@ -11,10 +11,6 @@ body {
     margin: 0;
 }
 
-.parallax {
-    background: url(https://source.unsplash.com/C0QuDm9QjdE/1920x1080) 50% 0;
-}
-
 .slide .row {
     display: flex;
     justify-content: center;
