@@ -21,14 +21,7 @@ new ScrollMagic.Scene({
     .setPin("#slidein")
     //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
- 
-new ScrollMagic.Scene({
-        triggerElement: "#slidein2",
-        triggerHook: "onLeave",
-    })
-    .setPin("#slidein2")
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
+
 });
 
 // Initialize AOS
