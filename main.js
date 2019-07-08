@@ -1,7 +1,8 @@
 // Scrollmagic
 $(function() {
     var controller = new ScrollMagic.Controller();
-       // Parallax background
+  
+// Parallax background
 new ScrollMagic.Scene({
         triggerElement: "#parallax",
         triggerHook: "onEnter",
@@ -14,14 +15,51 @@ new ScrollMagic.Scene({
     //.addIndicators() // for debugging purposes
     .addTo(controller);
 
+// About Section
 new ScrollMagic.Scene({
-        triggerElement: "#slidein",
+        triggerElement: "#slideAbout",
         triggerHook: "onLeave",
     })
-    .setPin("#slidein")
+    .setPin("#slideAbout")
     //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
+// Experiences Section
+new ScrollMagic.Scene({
+        triggerElement: "#slideExperiences",
+        triggerHook: "onLeave",
+    })
+    .setPin("#slideExperiences")
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+// Education Section
+new ScrollMagic.Scene({
+        triggerElement: "#slideEducation",
+        triggerHook: "onLeave",
+    })
+    .setPin("#slideEducation")
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+// Skills Section  
+new ScrollMagic.Scene({
+        triggerElement: "#slideSkills",
+        triggerHook: "onLeave",
+    })
+    .setPin("#slideSkills")
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+// Interests Section  
+new ScrollMagic.Scene({
+        triggerElement: "#slideInterests",
+        triggerHook: "onLeave",
+    })
+    .setPin("#slideInterests")
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+  
 });
 
 // Initialize AOS
