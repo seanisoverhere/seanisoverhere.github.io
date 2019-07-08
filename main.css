@@ -9,7 +9,6 @@
 
 body {
     margin: 0;
-    overflow-x:hidden
 }
 
 .slide .row {
@@ -63,12 +62,12 @@ body {
 }
 
 .navbar-brand {
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
 .nav-item a {
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
