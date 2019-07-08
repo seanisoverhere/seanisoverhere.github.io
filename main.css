@@ -31,7 +31,7 @@ body {
 
 
 .parallax {
-  background: url(https://source.unsplash.com/eJSN4mBkhVY/2560x1440) 0 50%;
+  background: url(https://source.unsplash.com/eJSN4mBkhVY/2560x1440);
   background-size: cover;
   background-repeat: no-repeat;
   filter: invert(0.1);
