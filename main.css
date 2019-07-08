@@ -31,6 +31,8 @@ body {
 
 .parallax {
   background: url(https://source.unsplash.com/C0QuDm9QjdE/1920x1080) 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
   filter: invert(0.1);
 }
 
