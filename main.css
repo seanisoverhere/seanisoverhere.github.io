@@ -24,17 +24,10 @@ body {
     background: #5b3030;
 }
 
+.parallel {
+  background-image: url("https://source.unsplash.com/C0QuDm9QjdE/1920x1080");
+
 /* Background */
-.background {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  filter: inverse(0.2);
-}
 
 .background-text {
   position: absolute !important;
