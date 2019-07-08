@@ -24,6 +24,10 @@ body {
     text-align: center;
 }
 
+.slidein {
+    background: #5b3030;
+}
+
 /* Background */
 .background {
   height: 100vh;
