@@ -1,10 +1,7 @@
 // Scrollmagic
 $(function() {
     var controller = new ScrollMagic.Controller();
-});
-
-
-// Parallax background
+       // Parallax background
 new ScrollMagic.Scene({
         triggerElement: "#parallax",
         triggerHook: "onEnter",
@@ -32,6 +29,7 @@ new ScrollMagic.Scene({
     .setPin("#slidein2")
     //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
+});
 
 // Initialize AOS
 $(function() {
