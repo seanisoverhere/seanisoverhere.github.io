@@ -1,5 +1,8 @@
 // Scrollmagic
-var controller = new ScrollMagic.Controller();
+$(function() {
+    var controller = new ScrollMagic.Controller();
+});
+
 
 // Parallax background
 new ScrollMagic.Scene({
