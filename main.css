@@ -124,15 +124,15 @@
   background-size: cover;
 }
 [data-animation="parallax"] .cd-section:first-of-type > div {
-  background-image: url("../img/img-1.jpg");
+  background-image: url("https://source.unsplash.com/V1lmayjfBJc/1600x900");
 }
 [data-animation="parallax"] .cd-section:nth-of-type(2) > div {
-  background-image: url("../img/img-2.jpg");
+  background-image: url("https://source.unsplash.com/3-sasPgXnoQ/1600x900");
 }
 [data-animation="parallax"] .cd-section:nth-of-type(3) > div {
-  background-image: url("../img/img-3.jpg");
+  background-image: url("https://source.unsplash.com/FwNUSwJDZIQ/1600x900");
 }
 [data-animation="parallax"] .cd-section:nth-of-type(4) > div {
-  background-image: url("../img/img-4.jpg");
+  background-image: url("https://source.unsplash.com/BIdxEi7cWLM/1600x900");
 }
 
