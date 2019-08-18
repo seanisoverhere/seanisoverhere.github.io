@@ -32,7 +32,6 @@ body {
   background: url(https://source.unsplash.com/eJSN4mBkhVY/2560x1440&fit=max);
   background-size: cover;
   background-repeat: no-repeat;
-  filter: invert(0.1);
 }
 
 /* Background */
