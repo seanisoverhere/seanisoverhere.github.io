@@ -1,122 +1,37 @@
-/* -------------- Fonts -------------- */
-
-/* Bebas Neue */
-@font-face {
-  font-family: 'BebasNeue-Bold';
-  font-display: auto;
-  src: url('/fonts/BebasNeue-Bold.ttf') format('truetype');
-}
-
 body {
-    margin: 0;
-    overflow-x: hidden;
+  font-family: Arial;
+  background-color: darkgrey;
 }
 
-.slide {
-    justify-content: center;
-    height: 100vh;
-    color: white;
-    text-align: center;
-}
-
-.slideMain {
-    background: #fff;
-}
-
-.slideAlt {
-  background: #DADADA;
-}
-
-
-.parallax {
-  background: url(https://source.unsplash.com/eJSN4mBkhVY/2560x1440&fit=max);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* Background */
-
-.background-text {
-  position: absolute !important;
-  right: 15%;
-  bottom: 20px;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #000;
+h1 {
+  color: white;
+  font-size: 23px;
   text-align: center;
 }
 
-/* Navbar */
-
-.bg-transparent {
-  transition: all 500ms ease;
+h3 {
+  color: white;
+  font-size: 16px;
 }
 
-.navbar.scrolled {
-  background-color: #585858 !important;
-  transition: all 500ms ease;
+p {
+  background-color: #246aae;
+  color: orange;
+  font-size: 16px;
+  text-align: center;
 }
 
-.navbar-brand {
-  color: #000;
-  font-weight: 600;
+.title, td {
+  color: orange;
 }
 
-.nav-item a {
-  color: #000;
-  font-weight: 600;
+table, th, td {
+  border: 2px solid white;
+  text-align: center;
 }
 
-/* Heading */
-
-.heading_icon-container {
-    height: 64px;
-    padding-top: 20px;
-    padding-bottom: 55px;
-}
-
-.heading_icon {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 36px;
-    color: #646262;
-}
-
-.heading_title {
-    position: relative;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    padding-bottom: 20px;
-}
-
-.heading_title-line {
-    position: absolute;
-    height: 4px;
-    bottom: 44px;
-    left: 0;
-    right: 0;
-    width: 1%;
-    z-index: 1;
-    margin: 0 auto;
-    background-color: #646262;
-}
-
-.heading_title-bg {
-    display: inline-block;
-    font-family: "BebasNeue-Bold", Sans-Serif;
-    font-size: 36px;
-    position: relative;
-    background-color: #fff;
-    padding-left: 25px;
-    padding-right: 25px;
-    z-index: 2;
-    color: #646262;
-}
-
-.alt {
-  background-color: #DADADA;
+img {
+  max-width:200px;
+  float: left;
+  margin-right: 15px;
 }
