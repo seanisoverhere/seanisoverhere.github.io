@@ -1,0 +1,227 @@
+<html>
+<head>
+    <title>Sean Choon - Challenge 1</title>
+
+    <!-- Internal CSS styling -->
+    <style>
+
+        /* DO NOT MODIFY THIS */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add your CSS script below */
+
+        body {
+            background-image: url("images/justin_bg.jpg");
+            background-attachment: fixed;
+        }
+
+        .outer-box {
+            margin: 20px 80px;
+        }
+
+        .header-box {
+            background-color: black;
+            border-color: blue;
+            border-style: dotted solid;
+            border-width: 6px;
+            color: white;
+            line-height: 1.6;
+            padding: 15px;
+        }
+
+        .header-box > h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing: 16px;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        .header-box > p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .middle-box {
+            background-color: yellow;
+            border: 10px dotted red;
+            margin: 20px 0px;
+            padding: 10px;
+        }
+
+        .middle-box > h1 {
+            background-color: pink;
+            border: 5px dotted blue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px auto;
+            padding: 15px;
+            text-align: center;
+            width: 50%;
+
+        }
+
+        .middle-box > p {
+            line-height: 2.0;
+        }
+
+        #info {
+            background-color: cyan;
+            text-align: center;
+        }
+
+        a:link {
+            color: orange;
+        }
+
+        a:hover {
+            background-color: yellow;
+            color: blue;
+        }
+
+        .bottom-box {
+            background-color: lime;
+            border: 4px green solid;
+            border-radius: 25px;
+            padding: 10px 15px;
+        }
+
+        .bottom-box > h2 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .bottom-box > ul {
+            list-style-image: url("images/justin_list_button.png");
+            list-style-position: inside;
+        }
+
+        .bottom-box > ul li {
+            border-bottom: dotted;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .love-box {
+            border: 5px purple solid;
+            margin: 20px 0px;
+            padding: 10px 15px;
+        }
+
+        .love-box > h2 {
+            background-color: pink;
+            border: 5px dotted red;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10 auto;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .form-field > label {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .form-field > input[type=text] {
+            display: block;
+            margin-bottom: 20px;
+            height: 5%;
+            width: 65%;
+        }
+
+        .form-field > textarea {
+            display: block;
+            margin-bottom: 20px;
+            height: 5%;
+            width: 65%;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            padding: 8px 20px;
+        }
+
+        .footer-box {
+            background-color: grey;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!--
+        DO NOT MODIFY the baseline HTML script given to you!
+        For example,
+        - Do NOT change 'class' names
+        - Do NOT change the HTML structure (don't shift elements around)
+    -->
+
+    <div class="outer-box">
+
+        <div class="header-box">
+            <h1>Justin Bieber</h1>
+            <p>
+                Justin Drew Bieber is a Canadian singer and songwriter. Discovered at age 13 by talent manager Scooter Braun after he had watched his YouTube cover song videos, Bieber was signed to RBMG Records in 2008. 
+            </p>
+        </div>
+
+
+        <div class="middle-box">
+            <h1>Early Life</h1>
+            <p>
+                Bieber was born on March 1, 1994, in London, Ontario, at St Joseph's Hospital, and was raised in Stratford, Ontario. He is the only child of Jeremy Jack Bieber and Pattie Mallette, who were never married. Mallette's mother Diane and stepfather Bruce helped her raise her son. Bieber's ancestry includes French-Canadian, Irish, English, Scottish, and German.
+            </p>
+
+            <p id="info">
+                For more information, visit <a href="https://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">this Wiki page</a> and read!
+            </p>
+        </div>
+
+        <div class="bottom-box">
+            <h2>Describe Justin</h2>
+            <ul>
+                <li>Talented</li>
+                <li>Handsome</li>
+                <li>He is <span style="color: red; font-style: italic; text-decoration: line-through; ">single</span> <span style="color: blue; font-weight: bold;">married</span></li>
+            </ul>
+        </div>
+
+        <div class="love-box">
+            <h2>Send My Love</h2>
+            
+            <form>
+
+                <div class="form-field">
+                    <label>Name: </label>
+                    <input type="text" name="myname">
+                </div>
+
+                <div class="form-field">
+                    <label>Email: </label>
+                    <input type="text" name="email">
+                </div>
+
+                <div class="form-field">
+                    <label>Love Letter:</label>
+                    <textarea name="loveletter"></textarea>
+                </div>
+
+                <input type="submit" class="button" value="Send My Love">
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-box">
+        <p>
+            Copyright &copy; 2020 Sean Choon
+        </p>
+    </div>
+    
+</body>
+</html>
