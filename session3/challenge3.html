@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Challenge 3 - Friends Fan Page</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <img class="navbar-brand ml-5" src="images/friends.jpg" width="120" height="50" loading="lazy">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <div class="navbar-nav ml-auto mr-5">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Videos</a>
+            <a class="nav-link" href="#">Photos</a>
+            <a class="nav-link" href="#">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Introduction -->
+<div class="container">
+    <div class="display-4 text-center my-4">Introduction</div>
+    <p class="mx-auto">Friends is an American television sitcom, created by David Crane and Marta Kauffman, which aired on NBC from September 22, 1994, to May 6, 2004, lasting ten seasons. With an ensemble cast starring Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry and David Schwimmer, the show revolves around six friends in their 20s and 30s who live in Manhattan, New York City. The series was produced by Bright/Kauffman/Crane Productions, in association with Warner Bros. Television. The original executive producers were Kevin S. Bright, Kauffman, and Crane.</p>
+</div>
+
+<div class="container">
+    <div class="display-4 text-center my-4">Meet The Cast</div>
+</div>
+
+
+<!-- Meet the Cast, 6 cards -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="images/rachel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rachel</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime odit.</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="images/monica.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Monica</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime odit.</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="images/phoebe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Phobe</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime odit.</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="car mx-auto" style="width: 18rem;">
+                <img src="images/chandler.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chandler</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime odit.</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="images/joey.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Joey</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime odit.</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+              </div>            
+        </div>
+        <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="images/ross.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ross</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime odit.</p>
+                  <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+              </div>  
+        </div>
+    </div>
+</div>
+
+<!-- Form -->
+<div class="container-fluid bg-secondary mt-4 py-3 text-white">
+    <div class="container-md">
+        <h1 class="text-center">Write to Friends Cast</h1>
+        <form class="mx-5">
+            <div class="row">
+                <div class="col-6">
+                    <label for="fname">Full name</label>
+                    <input type="text" class="form-control my-2" id="fname">
+                </div>
+                <div class="col-6">
+                    <label for="country">Country</label>
+                    <input type="text" class="form-control my-2" id="country">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="uname">Username</label>
+                    <input type="text" class="form-control my-2" id="uname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="fav">Who is your most favourite member?</label>
+                    <select id="fav" class="form-control mb-4">
+                        <option selected>Rachel</option>
+                        <option>Monica</option>
+                        <option>Phoebe</option>
+                        <option>Chandler</option>
+                        <option>Joey</option>
+                        <option>Ross</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-danger btn-block">Send Letter to the Cast</button>
+        </form>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
